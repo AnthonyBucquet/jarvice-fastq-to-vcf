@@ -6,5 +6,5 @@ RUN touch /etc/NAE/screenshot.txt /etc/NAE/license.txt
 
 RUN mkdir -p /home/nimbix
 COPY src/* /home/nimbix/
-COPY src/test.sh /home/nimbix/test.sh
+COPY --chmod=+x src/test.sh /home/nimbix/test.sh
 WORKDIR /home/nimbix

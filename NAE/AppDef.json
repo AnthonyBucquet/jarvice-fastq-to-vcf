@@ -19,7 +19,7 @@
     "scale_max": 1,
     "commands": {
       "batch": {
-        "path": "/bin/sh /home/nimbix/test.sh",
+        "path": "/home/nimbix/test.sh",
         "interactive": false,
         "webshell": true,
         "description": "Test",
