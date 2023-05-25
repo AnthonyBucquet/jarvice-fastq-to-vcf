@@ -28,10 +28,10 @@
         }
       },
       "shell": {
-        "path": "/bin/bash -l",
+        "path": "python",
         "name": "Shell",
         "webshell": true,
-        "description": "Launch a web shell running /bin/bash and connect directly from your web browser."
+        "description": "Launch a web shell running python and connect directly from your web browser."
       }
     },
     "image": {
