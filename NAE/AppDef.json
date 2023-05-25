@@ -21,10 +21,17 @@
       "batch": {
         "path": "python /opt/src/main.py",
         "interactive": false,
+        "webshell": true,
         "description": "Test",
         "name": "TEST",
         "parameters": {
         }
+      }
+      "shell": {
+        "path": "/bin/bash -l",
+        "name": "Shell",
+        "webshell": true,
+        "description": "Launch a web shell running /bin/bash and connect directly from your web browser."
       }
     },
     "image": {
