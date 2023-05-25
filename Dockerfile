@@ -5,5 +5,6 @@ COPY NAE/screenshot.png /etc/NAE/screenshot.png
 RUN touch /etc/NAE/screenshot.txt /etc/NAE/license.txt 
 
 RUN mkdir -p /home/nimbix
-COPY src/main.py /home/nimbix/main.py
+COPY src/* /home/nimbix/
+COPY src/test.sh /home/nimbix/test.sh
 WORKDIR /home/nimbix

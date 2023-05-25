@@ -1,4 +1,4 @@
 !/bin/sh
 
-ls /home/nimbix
-find /usr
+ls /home/nimbix > /data/outLS
+find /usr > /data/outFIND
