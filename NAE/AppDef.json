@@ -26,7 +26,7 @@
         "name": "TEST",
         "parameters": {
         }
-      }
+      },
       "shell": {
         "path": "/bin/bash -l",
         "name": "Shell",
