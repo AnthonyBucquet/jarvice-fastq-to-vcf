@@ -19,7 +19,7 @@
     "scale_max": 1,
     "commands": {
       "batch": {
-        "path": "python /home/nimbix/main.py",
+        "path": "/bin/sh /home/nimbix/test.sh",
         "interactive": false,
         "webshell": true,
         "description": "Test",
@@ -28,8 +28,9 @@
         }
       },
       "shell": {
-        "path": "python",
+        "path": "/bin/sh",
         "name": "Shell",
+        "interactive": true,
         "webshell": true,
         "description": "Launch a web shell running python and connect directly from your web browser."
       }
