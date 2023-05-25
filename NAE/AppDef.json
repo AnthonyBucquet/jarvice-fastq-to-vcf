@@ -19,7 +19,7 @@
     "scale_max": 1,
     "commands": {
       "batch": {
-        "path": "python /opt/src/main.py",
+        "path": "python /home/nimbix/main.py",
         "interactive": false,
         "webshell": true,
         "description": "Test",
