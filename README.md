@@ -1,2 +1,2 @@
-# jarvice-fastq-to-vcf
-Container Built to run https://github.com/vlkofly/Fastq-to-vcf on Jarvice XE
+# jarvice-sample-python-script
+Container built to run a simple Python script on Jarvice XE
