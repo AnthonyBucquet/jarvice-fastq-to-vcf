@@ -19,12 +19,19 @@
     "scale_max": 1,
     "commands": {
       "batch": {
-        "path": "/home/nimbix/test.sh",
+        "path": "python",
         "interactive": false,
         "webshell": true,
         "description": "Test",
         "name": "TEST",
         "parameters": {
+          "main": {
+           "name": "main",
+           "type": "CONST",
+           "required": true,
+           "positional": true,
+           "value": "/home/nimbix/main.py"
+          }
         }
       },
       "shell": {
