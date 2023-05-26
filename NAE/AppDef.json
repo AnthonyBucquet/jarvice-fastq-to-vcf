@@ -23,7 +23,7 @@
         "interactive": false,
         "webshell": true,
         "description": "Test",
-        "name": "TEST",
+        "name": "Hello World",
         "parameters": {
           "main": {
            "name": "main",
@@ -33,13 +33,6 @@
            "value": "/home/nimbix/main.py"
           }
         }
-      },
-      "shell": {
-        "path": "/bin/sh",
-        "name": "Shell",
-        "interactive": true,
-        "webshell": true,
-        "description": "Launch a web shell running python and connect directly from your web browser."
       }
     },
     "image": {
