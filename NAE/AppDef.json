@@ -1,10 +1,8 @@
 {
-    "name": "FASTQ to VCF",
-    "description": "Transform FASTQ file into VCF",
-    "author": "vlkofly",
-    "classifications": [
-      "Computational Biology"
-    ],
+    "name": "Sample Python Script",
+    "description": "Execute \"hello world!\" script in Python",
+    "author": "Anthony Bucquet",
+    "classifications": [],
     "licensed": true,
     "vault-types": [
       "FILE",
