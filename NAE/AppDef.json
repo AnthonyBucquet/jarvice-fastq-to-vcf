@@ -2,7 +2,9 @@
     "name": "Sample Python Script",
     "description": "Execute \"hello world!\" script in Python",
     "author": "Anthony Bucquet",
-    "classifications": [],
+    "classifications": [
+      "Uncategorized"
+    ],
     "licensed": true,
     "vault-types": [
       "FILE",
