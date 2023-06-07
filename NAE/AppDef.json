@@ -1,42 +1,42 @@
 {
-    "name": "Sample Python Script",
-    "description": "Execute \"hello world!\" script in Python",
-    "author": "Anthony Bucquet",
-    "classifications": [
+  "name": "Sample Python Script",
+  "description": "Execute \"hello world!\" script in Python",
+  "author": "Anthony Bucquet",
+  "classifications": [
       "Uncategorized"
-    ],
-    "licensed": true,
-    "vault-types": [
+  ],
+  "licensed": true,
+  "vault-types": [
       "FILE",
       "BLOCK"
-    ],
-    "machines": [
+  ],
+  "machines": [
       "nc*",
       "ng*",
       "n[2-9]*",
       "n[1-9][0-9]*"
-    ],
-    "scale_max": 1,
-    "commands": {
+  ],
+  "scale_max": 1,
+  "commands": {
       "batch": {
-        "path": "python",
-        "interactive": false,
-        "webshell": true,
-        "description": "Test",
-        "name": "Hello World",
-        "parameters": {
-          "main": {
-           "name": "main",
-           "type": "CONST",
-           "required": true,
-           "positional": true,
-           "value": "/home/nimbix/main.py"
+          "path": "python",
+          "interactive": false,
+          "webshell": true,
+          "description": "Test",
+          "name": "Hello World",
+          "parameters": {
+              "main": {
+                  "name": "main",
+                  "type": "CONST",
+                  "required": true,
+                  "positional": true,
+                  "value": "/home/nimbix/main.py"
+              }
           }
-        }
       }
-    },
-    "image": {
+  },
+  "image": {
       "type": "image/png",
       "data": ""
-    }
   }
+}
